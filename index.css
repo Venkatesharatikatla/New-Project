@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.navbar-container {
+
+    background-color: #f2321d;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #f2321d;
+}
+
+.nav-link {
+    font-family: "Open";
+    font-weight: 800;
+}
+
+.toogle {
+    width: 30px;
+    padding-top: 5px;
+    align-self: center;
+    background-color: #f2321d;
+}
+
+.hide-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .navbar-nav {
+        display: none;
+    }
+}
+
+
+
+.container {
+    background-image: linear-gradient(to right, #fff, #e66465);
+    background-size: cover;
+    height: 200vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        height: 500vh;
+    }
+}
+
+.second-main-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:789px) {
+    .second-main-container {
+        flex-direction: column;
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (min-width:769px) {
+    .main-container {
+        flex-direction: row;
+    }
+}
+
+.first-container {
+    padding: 15px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-weight: 800;
+}
+
+.description {
+    text-align: left;
+}
+
+.btn {
+    font-family: "Roboto";
+    background-color: #f2321d;
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+}
+
+.second-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 768px) {
+    .second-main-container {
+        flex-direction: column;
+    }
+}
+
+.main-img-container {
+    display: flex;
+
+}
+
+.img-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.image {
+    width: 100%;
+}
+
+.img1 {
+    width: 125px;
+    height: 100px;
+    padding: 5px;
+}
+
+.img2 {
+    width: 130px;
+    height: 260px;
+    padding: 5px;
+
+}
+
+.img3 {
+    width: 125px;
+    height: 100px;
+    padding: 5px;
+}
+
+
+.img-container2 {
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container2 {
+        display: flex;
+    }
+
+    .second-main-container {
+        flex-direction: row;
+    }
+
+    .img1 {
+        width: 150px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .img2 {
+        width: 200px;
+        height: 400px;
+        padding: 5px;
+    }
+
+    .img3 {
+        width: 150px;
+        height: 200px;
+        padding: 5px;
+    }
+
+}
+
+.final-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2321d;
+
+    margin: 10px;
+    padding: 20px;
+}
+
+.second-heading {
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 300%;
+}
+
+.click-container {
+    display: flex;
+}
